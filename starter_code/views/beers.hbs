@@ -1,0 +1,14 @@
+
+<h1>List of Beers</h1>
+
+<div class="cards">
+   {{#each beers}}
+  <div class="card">
+    <img src="{{image_url}}" alt="Card image cap"/>
+    <h2 class="card-title">{{name}}</h2>
+    <h4> {{tagline}}</h4>
+    <p>{{description}}</p>
+    </div>
+     {{/each}}
+  </div>
+ 
